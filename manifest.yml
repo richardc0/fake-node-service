@@ -1,0 +1,5 @@
+applications:
+- name: rc_performance_test_app
+  command: node example.js
+  memory: 512M
+  buildpack: nodejs_buildpack
